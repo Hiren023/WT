@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Layout A</title>
+    <style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.container {
+    width: 70%;
+    margin: 20px auto;
+    border: 1px solid #555;
+}
+
+/* Header */
+.header {
+    height: 55px;
+    border-bottom: 2px solid green;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 30%;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.menu {
+    width: 70%;
+}
+
+.menu a {
+    margin-right: 25px;
+    color: blue;
+}
+
+/* Main */
+.main {
+    display: flex;
+    min-height: 300px;
+}
+
+/* Left */
+.left {
+    width: 25%;
+    border-right: 2px solid green;
+    padding: 10px;
+}
+
+.left div {
+    border: 1px solid #aaa;
+    padding: 8px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Right */
+.right {
+    width: 75%;
+    padding: 15px;
+}
+
+.top-content {
+    height: 80px;
+    border: 2px solid purple;
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.top-content div {
+    width: 50%;
+    border: 1px solid pink;
+}
+
+/* Bottom */
+.bottom-content {
+    height: 100px;
+    border: 2px solid purple;
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+}
+
+.bottom-content div {
+    flex: 1;
+    border: 1px solid pink;
+}
+
+/* Footer */
+.footer {
+    height: 30px;
+    border-top: 2px solid green;
+    text-align: center;
+    padding: 5px;
+}
+
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Header -->
+    <div class="header">
+        <div class="logo">Logo Here</div>
+
+        <div class="menu">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+
+    <!-- Main -->
+    <div class="main">
+
+        <!-- Left Sidebar -->
+        <div class="left">
+            <div>RESULT</div>
+            <div>APPLY</div>
+            <div>PLACEMENT</div>
+            <div>RECRUITMENT</div>
+            <div>NEWS</div>
+        </div>
+
+        <!-- Right Content -->
+        <div class="right">
+
+            <div class="top-content">
+                <div></div>
+                <div></div>
+            </div>
+
+            <div class="bottom-content">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        Footer
+    </div>
+
+</div>
+
+</body>
+</html>

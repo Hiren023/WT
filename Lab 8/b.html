@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Layout B</title>
+  <style>
+
+    * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.page {
+    width: 70%;
+    height: 300px;
+    margin: 20px auto;
+    background-color: skyblue;
+    padding: 8px;
+}
+
+/* Header */
+.header {
+    height: 30px;
+    background-color: purple;
+    color: white;
+    padding: 5px;
+}
+
+/* Content */
+.content {
+    height: 220px;
+    background-color: orange;
+    padding: 10px;
+    display: flex;
+}
+
+/* Left Menu */
+.left-menu {
+    width: 65%;
+}
+
+.title {
+    background-color: red;
+    color: white;
+    height: 20px;
+    padding-left: 5px;
+}
+
+.item {
+    background-color: black;
+    color: white;
+    width: 90%;
+    height: 25px;
+    margin-top: 8px;
+    padding: 5px;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 30%;
+    height: 60px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/* Footer */
+.footer {
+    height: 25px;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+}
+  </style>
+</head>
+<body>
+
+<div class="page">
+
+    <!-- Header -->
+    <div class="header">
+        Header
+    </div>
+
+    <!-- Content -->
+    <div class="content">
+
+        <!-- Left Side -->
+        <div class="left-menu">
+
+            <div class="title">Menu</div>
+
+            <div class="item">Entry</div>
+            <div class="item">Entry</div>
+            <div class="item">Entry</div>
+
+        </div>
+
+        <!-- Right Side -->
+        <div class="sidebar">
+            Sidebar
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        © Darshan University Rajkot
+    </div>
+
+</div>
+
+</body>
+</html>
