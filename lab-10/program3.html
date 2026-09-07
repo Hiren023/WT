@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container{
+            padding: 20px;
+            border: 2px solid black;
+        }
+        body{
+           font-family: Arial, Helvetica, sans-serif;
+           text-align: center;
+            padding: 50px;
+            display: flex;
+        }
+        .slidebar{
+            padding: 10px;
+        }
+        @media screen and (max-width:600px){
+            body{
+                background-color: lightblue;
+            .container{
+                font-size: 18px;
+            }
+            .slidebar{
+                display: none;
+            }
+        }
+    }
+        @media screen and (min-width:601px) and (max-width:1024px){
+            body{
+                background-color: lightyellow;
+            .container{
+                font-size: 24px;
+            }
+        }
+        }
+
+        @media screen and (min-width:1025px){
+            body{
+                background-color: lightcoral;
+            .container{
+                font-size: 30px;
+            }
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="slidebar">
+        <ul>
+            <li>product 1</li>
+            <li>product 2</li>
+            <li>product 3</li>
+            <li>product 4</li>
+            <li>product 5</li>
+        </ul>
+    </div>
+    <div class="container">
+        <h1>Responsive Webpage</h1>
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga velit veniam mollitia. Recusandae consectetur modi ullam iste commodi veniam quod obcaecati rerum! Tempore placeat laboriosam perferendis? Esse deserunt perferendis accusamus!
+        </p>
+    </div>
+</body>
+</html>
