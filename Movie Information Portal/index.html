@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CineVault — Ultimate movie management website. Explore the latest 2025 blockbusters, top-rated movies, new releases, and track your personal watchlist.">
+  <title>CineVault —Manage Movies</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+  
+  <header class="cv-navbar">
+    <div class="cv-navbar-inner">
+      <a href="index.html" class="cv-navbar-brand"><span class="brand-icon"><i class="bi bi-camera-reels-fill"></i></span> CineVault</a>
+      <input type="checkbox" id="nav-toggle" class="cv-nav-toggle" aria-label="Toggle navigation">
+      <label for="nav-toggle" class="cv-nav-toggle-label"><i class="bi bi-list"></i></label>
+      <ul class="cv-nav-links">
+        <li><a href="index.html" class="cv-nav-link active">Home</a></li>
+        <li><a href="movies.html" class="cv-nav-link">Movies</a></li>
+        <li><a href="genres.html" class="cv-nav-link">Genres</a></li>
+        <li><a href="watchlist.html" class="cv-nav-link">Watchlist</a></li>
+        <li><a href="about.html" class="cv-nav-link">About Us</a></li>
+        <li><a href="contact.html" class="cv-nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  
+  <section class="cv-hero">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="cv-hero-content cv-animate-in">
+            <span class="cv-hero-badge"><i class="bi bi-stars"></i> #1 Movie Platform 2025</span>
+            <h1 class="cv-hero-title">Discover, Track &amp; <span class="cv-text-accent">Manage</span> Your Movies</h1>
+            <p class="cv-hero-desc">Explore the latest blockbusters, build your watchlist, and download your favorite cinema in 4K Ultra HD. Your personal cinema companion starts here.</p>
+            <div class="d-flex flex-wrap gap-3">
+              <a href="movies.html" class="cv-btn cv-btn-primary cv-btn-lg"><i class="bi bi-collection-play"></i> Browse Movies</a>
+              <a href="watchlist.html" class="cv-btn cv-btn-outline cv-btn-lg"><i class="bi bi-bookmark-plus"></i> My Watchlist</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="cv-hero-image cv-animate-in cv-animate-delay-2">
+            <img src="images/posters/superman.png" alt="Featured Movie — Superman 2025">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="cv-section-alt" style="padding: 3rem 0;">
+    <div class="container">
+      <div class="row g-4 text-center">
+        <div class="col-6 col-md-3">
+          <div class="cv-stat-card">
+            <div class="cv-stat-number">12+</div>
+            <div class="cv-stat-label">Blockbusters</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="cv-stat-card">
+            <div class="cv-stat-number">4K</div>
+            <div class="cv-stat-label">Ultra HD Quality</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="cv-stat-card">
+            <div class="cv-stat-number">10</div>
+            <div class="cv-stat-label">Total Pages</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="cv-stat-card">
+            <div class="cv-stat-number">8.7</div>
+            <div class="cv-stat-label">Top Rating Score</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="cv-section">
+    <div class="container">
+      <div class="cv-section-header">
+        <div>
+          <h2 class="cv-section-title">Featured Blockbusters</h2>
+          <p class="cv-section-subtitle">Hand-picked 2025 releases you cannot miss</p>
+        </div>
+        <a href="movies.html" class="cv-btn cv-btn-outline cv-btn-sm d-none d-md-inline-flex">View All <i class="bi bi-arrow-right"></i></a>
+      </div>
+
+      <div class="row g-4">
+        
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="cv-movie-card">
+            <div class="cv-movie-poster">
+              <img src="images/posters/avatar.png" alt="Avatar Fire and Ash">
+              <div class="cv-movie-poster-overlay"></div>
+              <div class="cv-movie-poster-actions">
+                <a href="movie-avatar.html" class="cv-btn cv-btn-primary cv-btn-sm" style="flex:1;justify-content:center;">Details</a>
+              </div>
+            </div>
+            <div class="cv-movie-info">
+              <h3 class="cv-movie-title"><a href="movie-avatar.html">Avatar: Fire and Ash</a></h3>
+              <div class="cv-movie-meta"><span class="cv-movie-year">2025</span><span class="cv-badge cv-badge-top">#1 Rated</span></div>
+              <span class="cv-movie-genre">Sci-Fi, Fantasy</span>
+              <div class="cv-movie-rating"><i class="bi bi-star-fill"></i><span class="cv-movie-rating-value">8.7</span><span class="cv-movie-rating-max">/ 10</span></div>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="cv-movie-card">
+            <div class="cv-movie-poster">
+              <img src="images/posters/mission-impossible.png" alt="Mission Impossible">
+              <div class="cv-movie-poster-overlay"></div>
+              <div class="cv-movie-poster-actions">
+                <a href="movie-mission-impossible.html" class="cv-btn cv-btn-primary cv-btn-sm" style="flex:1;justify-content:center;">Details</a>
+              </div>
+            </div>
+            <div class="cv-movie-info">
+              <h3 class="cv-movie-title"><a href="movie-mission-impossible.html">Mission: Impossible</a></h3>
+              <div class="cv-movie-meta"><span class="cv-movie-year">2025</span><span class="cv-badge cv-badge-top">Top Rated</span></div>
+              <span class="cv-movie-genre">Action, Thriller</span>
+              <div class="cv-movie-rating"><i class="bi bi-star-fill"></i><span class="cv-movie-rating-value">8.5</span><span class="cv-movie-rating-max">/ 10</span></div>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="cv-movie-card">
+            <div class="cv-movie-poster">
+              <img src="images/posters/superman.png" alt="Superman">
+              <div class="cv-movie-poster-overlay"></div>
+              <div class="cv-movie-poster-actions">
+                <a href="movie-superman.html" class="cv-btn cv-btn-primary cv-btn-sm" style="flex:1;justify-content:center;">Details</a>
+              </div>
+            </div>
+            <div class="cv-movie-info">
+              <h3 class="cv-movie-title"><a href="movie-superman.html">Superman</a></h3>
+              <div class="cv-movie-meta"><span class="cv-movie-year">2025</span><span class="cv-badge cv-badge-trending">Trending</span></div>
+              <span class="cv-movie-genre">Action, Sci-Fi</span>
+              <div class="cv-movie-rating"><i class="bi bi-star-fill"></i><span class="cv-movie-rating-value">8.2</span><span class="cv-movie-rating-max">/ 10</span></div>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="cv-movie-card">
+            <div class="cv-movie-poster">
+              <img src="images/posters/wicked.png" alt="Wicked">
+              <div class="cv-movie-poster-overlay"></div>
+              <div class="cv-movie-poster-actions">
+                <a href="movies.html" class="cv-btn cv-btn-primary cv-btn-sm" style="flex:1;justify-content:center;">Details</a>
+              </div>
+            </div>
+            <div class="cv-movie-info">
+              <h3 class="cv-movie-title"><a href="movies.html">Wicked: For Good</a></h3>
+              <div class="cv-movie-meta"><span class="cv-movie-year">2025</span><span class="cv-badge cv-badge-trending">Trending</span></div>
+              <span class="cv-movie-genre">Musical, Fantasy</span>
+              <div class="cv-movie-rating"><i class="bi bi-star-fill"></i><span class="cv-movie-rating-value">8.0</span><span class="cv-movie-rating-max">/ 10</span></div>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="cv-movie-card">
+            <div class="cv-movie-poster">
+              <img src="images/posters/sinners.png" alt="Sinners">
+              <div class="cv-movie-poster-overlay"></div>
+              <div class="cv-movie-poster-actions">
+                <a href="movies.html" class="cv-btn cv-btn-primary cv-btn-sm" style="flex:1;justify-content:center;">Details</a>
+              </div>
+            </div>
+            <div class="cv-movie-info">
+              <h3 class="cv-movie-title"><a href="movies.html">Sinners</a></h3>
+              <div class="cv-movie-meta"><span class="cv-movie-year">2025</span><span class="cv-badge cv-badge-trending">Trending</span></div>
+              <span class="cv-movie-genre">Horror, Thriller</span>
+              <div class="cv-movie-rating"><i class="bi bi-star-fill"></i><span class="cv-movie-rating-value">7.9</span><span class="cv-movie-rating-max">/ 10</span></div>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="cv-movie-card">
+            <div class="cv-movie-poster">
+              <img src="images/posters/thunderbolts.png" alt="Thunderbolts">
+              <div class="cv-movie-poster-overlay"></div>
+              <div class="cv-movie-poster-actions">
+                <a href="movie-thunderbolts.html" class="cv-btn cv-btn-primary cv-btn-sm" style="flex:1;justify-content:center;">Details</a>
+              </div>
+            </div>
+            <div class="cv-movie-info">
+              <h3 class="cv-movie-title"><a href="movie-thunderbolts.html">Thunderbolts*</a></h3>
+              <div class="cv-movie-meta"><span class="cv-movie-year">2025</span><span class="cv-badge cv-badge-new">New</span></div>
+              <span class="cv-movie-genre">Action, Thriller</span>
+              <div class="cv-movie-rating"><i class="bi bi-star-fill"></i><span class="cv-movie-rating-value">7.8</span><span class="cv-movie-rating-max">/ 10</span></div>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="cv-movie-card">
+            <div class="cv-movie-poster">
+              <img src="images/posters/ballerina.png" alt="Ballerina">
+              <div class="cv-movie-poster-overlay"></div>
+              <div class="cv-movie-poster-actions">
+                <a href="movies.html" class="cv-btn cv-btn-primary cv-btn-sm" style="flex:1;justify-content:center;">Details</a>
+              </div>
+            </div>
+            <div class="cv-movie-info">
+              <h3 class="cv-movie-title"><a href="movies.html">Ballerina</a></h3>
+              <div class="cv-movie-meta"><span class="cv-movie-year">2025</span></div>
+              <span class="cv-movie-genre">Action, Thriller</span>
+              <div class="cv-movie-rating"><i class="bi bi-star-fill"></i><span class="cv-movie-rating-value">7.6</span><span class="cv-movie-rating-max">/ 10</span></div>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="cv-movie-card">
+            <div class="cv-movie-poster">
+              <img src="images/posters/fantastic-four.png" alt="Fantastic Four">
+              <div class="cv-movie-poster-overlay"></div>
+              <div class="cv-movie-poster-actions">
+                <a href="movie-fantastic-four.html" class="cv-btn cv-btn-primary cv-btn-sm" style="flex:1;justify-content:center;">Details</a>
+              </div>
+            </div>
+            <div class="cv-movie-info">
+              <h3 class="cv-movie-title"><a href="movie-fantastic-four.html">The Fantastic Four: First Steps</a></h3>
+              <div class="cv-movie-meta"><span class="cv-movie-year">2025</span><span class="cv-badge cv-badge-new">New</span></div>
+              <span class="cv-movie-genre">Action, Sci-Fi</span>
+              <div class="cv-movie-rating"><i class="bi bi-star-fill"></i><span class="cv-movie-rating-value">7.5</span><span class="cv-movie-rating-max">/ 10</span></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="text-center mt-4 d-md-none">
+        <a href="movies.html" class="cv-btn cv-btn-outline"><i class="bi bi-collection-play"></i> View All Movies</a>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="cv-section cv-section-alt">
+    <div class="container">
+      <div class="cv-section-header">
+        <div>
+          <h2 class="cv-section-title">Explore Genres</h2>
+          <p class="cv-section-subtitle">Find movies matching your exact mood</p>
+        </div>
+        <a href="genres.html" class="cv-btn cv-btn-outline cv-btn-sm">All Genres <i class="bi bi-arrow-right"></i></a>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-6 col-md-4 col-lg-3">
+          <a href="genres.html" style="text-decoration:none;color:inherit;">
+            <div class="cv-genre-card">
+              <span class="genre-icon"><i class="bi bi-lightning-charge-fill"></i></span>
+              <div class="genre-name">Action</div>
+              <div class="genre-count">8 Movies</div>
+            </div>
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <a href="genres.html" style="text-decoration:none;color:inherit;">
+            <div class="cv-genre-card">
+              <span class="genre-icon"><i class="bi bi-rocket-takeoff-fill"></i></span>
+              <div class="genre-name">Sci-Fi</div>
+              <div class="genre-count">5 Movies</div>
+            </div>
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <a href="genres.html" style="text-decoration:none;color:inherit;">
+            <div class="cv-genre-card">
+              <span class="genre-icon"><i class="bi bi-mask"></i></span>
+              <div class="genre-name">Thriller</div>
+              <div class="genre-count">4 Movies</div>
+            </div>
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <a href="genres.html" style="text-decoration:none;color:inherit;">
+            <div class="cv-genre-card">
+              <span class="genre-icon"><i class="bi bi-stars"></i></span>
+              <div class="genre-name">Fantasy</div>
+              <div class="genre-count">2 Movies</div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <footer class="cv-footer">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4 mb-3">
+          <div class="cv-footer-brand"><span><i class="bi bi-camera-reels-fill"></i></span> CineVault</div>
+          <p class="cv-footer-desc">Your ultimate movie management destination. Discover, track, and manage your cinema experience with elegance.</p>
+          <div class="cv-footer-social mt-3">
+
+            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+           
+          </div>
+        </div>
+        <div class="col-6 col-lg-2">
+          <h6 class="cv-footer-title">Navigate</h6>
+          <ul class="cv-footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="movies.html">All Movies</a></li>
+            <li><a href="genres.html">Genres</a></li>
+            <li><a href="watchlist.html">Watchlist</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2">
+          <h6 class="cv-footer-title">Company</h6>
+          <ul class="cv-footer-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2">
+          <h6 class="cv-footer-title">Genres</h6>
+          <ul class="cv-footer-links">
+            <li><a href="genres.html">Action</a></li>
+            <li><a href="genres.html">Sci-Fi</a></li>
+            <li><a href="genres.html">Thriller</a></li>
+            <li><a href="genres.html">Fantasy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="cv-footer-bottom">
+        &copy; 2026 CineVault. All rights reserved. Built with <i class="bi bi-heart-fill" style="color:#e74c3c;"></i> for movie lovers.
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
